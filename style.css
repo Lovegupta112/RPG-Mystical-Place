@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: darkblue; */
+  /* ------------------------ */
+  /* background-color: rgb(101, 219, 255); */
+  display: grid;
+  place-items: center;
+  height:100vh;
+  background-image: url('images/2D\ RPG\ Games\ 1_0.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+#text {
+  background-color: black;
+  /*-------------*/
+  background-color:#e4b9b9c4;
+  color: white;
+  /*-------------*/
+  color:rgb(0, 30, 255);
+  padding: 10px;
+/*-------------*/
+  min-height:100px;
+  font-size:1.11rem;
+  font-weight:900;
+  font-family:'Courier New', Courier, monospace;
+  line-height:1.4;
+}
+
+main{
+  /* background-color: #fff; */
+  display: flex;
+  flex-direction: column;
+  margin-top:-2rem;
+  color: white;
+/* margin-bottom:2rem; */
+  
+}
+main >h1{
+  text-align: center;
+  margin-bottom:2rem;
+  text-shadow:0 0 10px rgb(251, 59, 59);
+  font-size:2rem;
+  font-family: 'Press Start 2P', cursive;
+}
+#game {
+  max-width: 500px;
+  max-height: 400px;
+  
+  /*-------------*/
+min-height:200px;
+
+  background-color: rgba(211, 211, 211, 0.6);
+/*-------------*/
+  /* background-color:#BADA55; */
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+  box-shadow:0 0 10px 5px aqua;
+}
+
+#controls {
+  border: 1px black solid;
+  padding: 5px;
+}
+#controls button{
+  padding:0.2rem 0.6rem;
+}
+#stats {
+  border: 1px black solid;
+  color: black;
+  padding: 5px;
+  /*  */
+  font-family: sans-serif;
+}
+
+#monsterStats {
+  display: none;
+  border: 1px black solid;
+  color: white;
+  padding: 5px;
+  background-color: red;
+  font-family: sans-serif;
+}
+
+.stat {
+  padding-right: 10px;
+  font-weight:700;
+  font-size:1.3rem;
+}
+
+/* ---------------- */
+.stat span{
+  color:rgb(255, 255, 255);
+}
